@@ -1,0 +1,29 @@
+<div id="#Button1 " style="position: absolute; left: 80px; right: 0; top:0; bottom:40px;">
+    @Html.DevExpress().Button(settings => {
+    settings.Name = "SwitchWorkingModesButton";
+    settings.Text = "Switch to Viewer";
+    settings.UseSubmitBehavior = true;
+    settings.ClientSideEvents.Click = "function(s, e) { switchWorkingModes(s, e); }";
+}).GetHtml()
+</div>
+<div id="#Dashboard" style="position: absolute; left: 0; right: 0; top:40px; bottom:0;">
+    @Html.DevExpress().Dashboard(settings => {
+    settings.Name = "Dashboard";
+    settings.Width = Unit.Percentage(100);
+    settings.Height = Unit.Percentage(100);
+}).GetHtml()
+</div>
+
+<script>
+    function switchWorkingModes(s, e) {
+        var workingMode = Dashboard.GetWorkingMode();
+        if (workingMode == 'designer') {
+            Dashboard.SwitchToViewer();
+            SwitchWorkingModesButton.SetText('Switch to Designer');
+        }
+        else {
+            Dashboard.SwitchToDesigner();
+            SwitchWorkingModesButton.SetText('Switch to Viewer');
+        }
+    }
+</script>
