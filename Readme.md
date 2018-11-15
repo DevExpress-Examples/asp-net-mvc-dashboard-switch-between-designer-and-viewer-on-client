@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Global.asax.cs](./CS/Dashboard_MvcDesigner_2010/Global.asax.cs) (VB: [Global.asax.vb](./VB/Dashboard_MvcDesigner_2010/Global.asax.vb))
+* [SwitchModes.js](./CS/Dashboard_MvcDesigner_2010/Scripts/SwitchModes.js) (VB: [SwitchModes.js](./VB/Dashboard_MvcDesigner_2010/Scripts/SwitchModes.js))
+* [Index.cshtml](./CS/Dashboard_MvcDesigner_2010/Views/Home/Index.cshtml)
+* [_Layout.cshtml](./CS/Dashboard_MvcDesigner_2010/Views/Shared/_Layout.cshtml)
+<!-- default file list end -->
 # How to create a ASP.NET MVC Dashboard Designer application with predefined data sources
 
 
