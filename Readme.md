@@ -7,6 +7,9 @@
 * [_Layout.cshtml](./CS/Dashboard_MvcDesigner_2010/Views/Shared/_Layout.cshtml)
 <!-- default file list end -->
 # How to create a ASP.NET MVC Dashboard Designer application with predefined data sources
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t393595)**
+<!-- run online end -->
 
 
 <p>This example shows how to create an ASP.NET MVC Dashboard Designer application and provide data for dashboards.</p>
