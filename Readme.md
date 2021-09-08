@@ -13,7 +13,7 @@
 * [Global.asax.cs](./CS/MVCxDashboard_PredefinedDataSources/Global.asax.cs) (VB: [Global.asax.vb](./VB/MVCxDashboard_PredefinedDataSources/Global.asax.vb))
 * [Index.cshtml](./CS/MVCxDashboard_PredefinedDataSources/Views/Home/Index.cshtml)
 <!-- default file list end -->
-# How to create a ASP.NET MVC Dashboard Designer application with predefined data sources
+# Create a ASP.NET MVC Dashboard Designer application with predefined data sources
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t393595/)**
 <!-- run online end -->
