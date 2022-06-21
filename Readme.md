@@ -3,28 +3,31 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T393595)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [DashboardConfig.cs](./CS/MVCxDashboard_PredefinedDataSources/App_Start/DashboardConfig.cs) (VB: [DashboardConfig.vb](./VB/MVCxDashboard_PredefinedDataSources/App_Start/DashboardConfig.vb))
-* [FilterConfig.cs](./CS/MVCxDashboard_PredefinedDataSources/App_Start/FilterConfig.cs) (VB: [FilterConfig.vb](./VB/MVCxDashboard_PredefinedDataSources/App_Start/FilterConfig.vb))
-* [RouteConfig.cs](./CS/MVCxDashboard_PredefinedDataSources/App_Start/RouteConfig.cs) (VB: [RouteConfig.vb](./VB/MVCxDashboard_PredefinedDataSources/App_Start/RouteConfig.vb))
-* [HomeController.cs](./CS/MVCxDashboard_PredefinedDataSources/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/MVCxDashboard_PredefinedDataSources/Controllers/HomeController.vb))
-* [Global.asax.cs](./CS/MVCxDashboard_PredefinedDataSources/Global.asax.cs) (VB: [Global.asax.vb](./VB/MVCxDashboard_PredefinedDataSources/Global.asax.vb))
-* [Index.cshtml](./CS/MVCxDashboard_PredefinedDataSources/Views/Home/Index.cshtml)
-<!-- default file list end -->
-# Create a ASP.NET MVC Dashboard Designer application with predefined data sources
+# Dashboard for Web Forms - How to Switch between Designer and Viewer Modes
+
+This example shows how to switch between the [Web Dashboard](https://docs.devexpress.com/Dashboard/115955/web-dashboard)'s working modes on the [client-side](https://docs.devexpress.com/Dashboard/16796/web-dashboard/aspnet-mvc-dashboard-extension/client-side-api-overview).
+
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/128579287/)**
 <!-- run online end -->
 
+![](mvc-switch-working-modes-on-the-client.png)
 
-This example shows how to create an ASP.NET MVC Dashboard Designer application and provide data for dashboards.
+- The [SettingsBase.Name](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.SettingsBase.Name) property identifies the control's unique identifier name. The [ASPxClientDashboard.GetDashboardControl](https://docs.devexpress.com/Dashboard/js-ASPxClientDashboard#js_aspxclientdashboard_getdashboardcontrol) method is used to access the [DashboardControl](https://docs.devexpress.com/Dashboard/116302/web-dashboard/aspnet-web-forms-dashboard-control/client-side-api-overview) API. 
+- The [DashboardControl.isDesignMode](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl#js_devexpress_dashboard_dashboardcontrol_isdesignmode) method checks whether the Web Dashboard works in designer mode.
+- The [DashboardControl.switchToDesigner](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl?p=netframework#js_devexpress_dashboard_dashboardcontrol_switchtodesigner) and [DashboardControl.switchToViewer](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControl?p=netframework#js_devexpress_dashboard_dashboardcontrol_switchtoviewer) methods are used to switch between modes.
 
-The project contains a simple dashboard and two available data sources: the [XML](https://documentation.devexpress.com/#Dashboard/CustomDocument113927) and [OLAP](https://documentation.devexpress.com/#Dashboard/CustomDocument114427) data sources. You can use these data sources to create a new dashboard. To learn how to create an MVC Designer application from scratch, see the following topic: [Creating an ASP.NET MVC Dashboard Designer Application](https://documentation.devexpress.com/#Dashboard/CustomDocument116313).
+## Files to Look At
 
-*Note that the OLAP data source requires the ADOMD.NET data provider installed on the web server. You can get the latest version of this provider here: [https://www.microsoft.com/en-us/download/details.aspx?id=42295](https://www.microsoft.com/en-us/download/details.aspx?id=42295).*
+* [Index.cshtml](./CS/MVCxDashboard_PredefinedDataSources/Views/Home/Index.cshtml) (VB: [Index.vbhtml](./VB/MVCxDashboard_PredefinedDataSources/Views/Home/Index.vbhtml))
+* [custom-script.js](./CS/MVCxDashboard_PredefinedDataSources/Scripts/custom-script.js)
 
-<br/>
+## Documentation
 
+- [Client-Side API Overview for ASP.NETMVC Dashboard](https://docs.devexpress.com/Dashboard/16796/web-dashboard/aspnet-mvc-dashboard-extension/client-side-api-overview)
+- [Web Dashboard Technical Overview](https://docs.devexpress.com/Dashboard/119283/web-dashboard/general-information/web-dashboard-technical-overview?p=netframework)
 
+## More Examples
+
+- [Dashboard for Web Forms - How to Switch between Designer and Viewer Modes](https://github.com/DevExpress-Examples/asp-net-web-forms-dashboard-switch-between-designer-and-viewer-on-client)
