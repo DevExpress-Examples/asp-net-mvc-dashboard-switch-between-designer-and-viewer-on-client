@@ -2,7 +2,6 @@
     @Html.DevExpress().Button(settings => {
     settings.Name = "btnSwitchMode";
     settings.Text = "Switch to Viewer";
-    settings.UseSubmitBehavior = true;
     settings.ClientSideEvents.Click = "function(s) { switchMode(s); }";
 }).GetHtml()
 </div>
