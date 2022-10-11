@@ -25,7 +25,7 @@ This example shows how to switch between the [Web Dashboard](https://docs.devexp
 
 ## Documentation
 
-- [Client-Side API Overview for ASP.NETMVC Dashboard](https://docs.devexpress.com/Dashboard/16796/web-dashboard/aspnet-mvc-dashboard-extension/client-side-api-overview)
+- [Client-Side API Overview for ASP.NET MVC Dashboard](https://docs.devexpress.com/Dashboard/16796/web-dashboard/aspnet-mvc-dashboard-extension/client-side-api-overview)
 - [Web Dashboard Technical Overview](https://docs.devexpress.com/Dashboard/119283/web-dashboard/general-information/web-dashboard-technical-overview?p=netframework)
 
 ## More Examples
