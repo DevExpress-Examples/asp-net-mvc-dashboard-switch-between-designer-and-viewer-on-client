@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Dashboard for Web Forms - How to Switch between Designer and Viewer Modes
+# Dashboard for MVC - How to Switch between Designer and Viewer Modes
 
 This example shows how to switch between the [Web Dashboard](https://docs.devexpress.com/Dashboard/115955/web-dashboard)'s working modes on the [client-side](https://docs.devexpress.com/Dashboard/16796/web-dashboard/aspnet-mvc-dashboard-extension/client-side-api-overview).
 
