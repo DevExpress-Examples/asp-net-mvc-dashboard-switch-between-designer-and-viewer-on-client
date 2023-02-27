@@ -8,10 +8,6 @@
 
 This example shows how to switch between the [Web Dashboard](https://docs.devexpress.com/Dashboard/115955/web-dashboard)'s working modes on the [client-side](https://docs.devexpress.com/Dashboard/16796/web-dashboard/aspnet-mvc-dashboard-extension/client-side-api-overview).
 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128579287/)**
-<!-- run online end -->
-
 ![](mvc-switch-working-modes-on-the-client.png)
 
 - The [SettingsBase.Name](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.SettingsBase.Name) property identifies the control's unique identifier name. The [ASPxClientDashboard.GetDashboardControl](https://docs.devexpress.com/Dashboard/js-ASPxClientDashboard#js_aspxclientdashboard_getdashboardcontrol) method is used to access the [DashboardControl](https://docs.devexpress.com/Dashboard/116302/web-dashboard/aspnet-web-forms-dashboard-control/client-side-api-overview) API. 
